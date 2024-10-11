@@ -1,7 +1,7 @@
 # This file must be used with "source bin/activate" *from bash*
 # you cannot run it directly
 
-sudo chmod -R 777 ../../../../venv-redstar/
+sudo chmod -R 777 /home/ubuntu/redstar/venv-redstar/
 
 deactivate () {
     # reset old environment variables
