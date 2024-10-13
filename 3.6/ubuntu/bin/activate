@@ -1,9 +1,10 @@
 # This file must be used with "source bin/activate" *from bash*
 # you cannot run it directly
 
-export PYTHONHOME=/home/ubuntu/redstar/venv-redstar
+export VENVHOME=/home/ubuntu/redstar/venv-redstar
+export PYTHONHOME=$VENVHOME/3.6/ubuntu
 export PYTHONPATH=$PYTHONHOME/lib/python3.6/site-packages
-sudo chmod -R 777 ${PYTHONHOME}
+sudo chmod -R 777 ${VENVHOME}
 
 deactivate () {
     # reset old environment variables
